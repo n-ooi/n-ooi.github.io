@@ -18,19 +18,19 @@ body{
 
 #header{
     width: 100%;
-    height: 100vh;
+    height: 100vmin;
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .container{ 
-    padding: 10px 10%;
+    padding: 1vmin 10%;
 }
 
 .intro{
     text-align: center;
-    padding: 10px 10%;
+    padding: 1vmin 10%;
 }
 
 nav{
@@ -41,19 +41,19 @@ nav{
 }
 
 .logo{
-    width: 140px;
+    width: 0px;
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 3vh 2vh;
+    margin: 3vmin 2vmin;
 }
 
 nav ul li a{
     color: #ffff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.8vmin;
     position: relative;
     font-weight: normal;
 }
@@ -61,11 +61,11 @@ nav ul li a{
 nav ul li a::after{
     content: '';
     width: 0;
-    height: 3px;
+    height: 0.2vmin;
     background: #ff004f;
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: -.4vmin;
     transition: 0.5s;
 }
 
@@ -74,19 +74,19 @@ nav ul li a:hover:after{
 }
 
 .header-text {
-    margin-top: 20%;
-    font-size: 3vh;
+    margin-top: 32vmin;
+    font-size: 3vmin;
     display: inline-block;
-    animation: test 2s;
+    animation: fadeIn 2s;
 }
 
-@keyframes test {
+@keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
 
 .text{
-    border-right: 3px solid;
+    border-right: .4vmin solid;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -104,8 +104,8 @@ nav ul li a:hover:after{
 }
 
 .header-text h1{
-    font-size: 8vh;
-    margin-top: 30px;
+    font-size: 8vmin;
+    margin-top: .5vmin;
    
 }
 
@@ -116,7 +116,7 @@ nav ul li a:hover:after{
 
 /* ------ about ------ */
 #about{ 
-    padding: 80px 0;
+    padding: 8vmin 0;
     color: #ababab;
 }
 
@@ -132,7 +132,7 @@ nav ul li a:hover:after{
 
 .about-col-1 img{
     width: 100%;
-    border-radius: 25px;
+    border-radius: 2vmin;
 }
 
 .about-col-2{
@@ -140,19 +140,19 @@ nav ul li a:hover:after{
 }
 
 .subtitle{
-    font-size: 60px;
+    font-size: 6vmin;
     font-weight: 600;
     color: #fff;
 }
 
 .tab-titles{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 3vmin 0 2vmin;
 }
 
 .tab-links{
-    margin-right: 50px;
-    font-size: 18px;
+    margin-right: 5vmin;
+    font-size: 1.5vmin;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -161,11 +161,11 @@ nav ul li a:hover:after{
 .tab-links::after{
     content: '';
     width: 0;
-    height: 3px;
+    height: .2vmin;
     background: #ff004f;
     position: absolute;
     left: 0;
-    bottom: -8px;
+    bottom: -.4vmin;
     transition: 0.5s;
 }
 
@@ -179,16 +179,17 @@ nav ul li a:hover:after{
 
 .tab-contents ul li{
     list-style: none;
-    margin: 10px 0;
+    margin: 2vmin 0;
 }
 
 .tab-contents ul li span{
     color: #b54769;
-    font-size: 14px;
+    font-size: 1.2vmin;
 }
 
 .tab-contents{
     display: none;
+    animation: fadeIn 1s;
 }
 
 .tab-contents.active-tab{
