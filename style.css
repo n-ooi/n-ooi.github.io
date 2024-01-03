@@ -180,6 +180,7 @@ nav ul li a:hover:after{
 .tab-contents ul li{
     list-style: none;
     margin: 2vmin 0;
+    font-size: 1.5vmin;
 }
 
 .tab-contents ul li span{
@@ -194,4 +195,8 @@ nav ul li a:hover:after{
 
 .tab-contents.active-tab{
     display: block;
+}
+
+p {
+    font-size: 2vmin;
 }
