@@ -200,3 +200,13 @@ nav ul li a:hover:after{
 p {
     font-size: 2vmin;
 }
+
+.tiltcard{
+    width: 40vmin;
+    height: 50vmin;
+    background: rgba(255,255,255,0.25);
+    margin: 0 20px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
